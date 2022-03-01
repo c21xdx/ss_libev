@@ -1,6 +1,6 @@
 FROM teddysun/shadowsocks-libev
 
-ENV CONFIG_JSON = ss.json
+ENV CONFIG_JSON ss
 ENV PORT 10086
 ENV SS_PASSWD u12345
 
