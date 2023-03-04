@@ -6,4 +6,6 @@ ENV SS_PASSWD u12345
 
 COPY ss.json v2r.json xray.json run.sh /etc/shadowsocks-libev/
 
+EXPOSE $PORT
+
 CMD sh /etc/shadowsocks-libev/run.sh
